@@ -1,14 +1,54 @@
+.container{
+    background: #AE1E39;
+    width: 60%;
+    margin: auto;
+}
+
 .buttons{
-    background: blue;
+    background: #0F426E;
     color: white;
+    font-weight: bold;
     border-radius: 50%;
     width: 100px;
     height: 100px;
     border: none;
 }
 
-.buttons_container{
-    background: red;
+.operators{
+    display: flex;
+    flex-flow: column wrap;
+    width: 110px;
+}
+
+.operator_buttons{
+    background: #007498;
+    color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: none;
+    font-weight: bold;
+
+}
+
+.specials{
+    display: flex;
+    flex-flow: column wrap;
+    width: 110px;
+}
+
+.special_buttons{
+    background: #095E9E;
+    color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: none;
+    font-weight: bold;
+
+}
+
+.num_container{
     width: 300px;
     height: 500px;
     padding: 30px;
@@ -16,4 +56,16 @@
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
+}
+
+.display{
+    background: #323337;
+    border-radius: 0%;
+    width: 300px;
+    height: 75px;
+    margin: auto;
+}
+
+.logo-container{
+    padding: 20px;
 }

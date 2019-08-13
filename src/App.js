@@ -3,6 +3,7 @@ import "./App.css";
 import Numbers from "./components/ButtonComponents/NumberButtons/Numbers";
 import Operators from "./components/ButtonComponents/OperatorButtons/Operators";
 import Specials from "./components/ButtonComponents/SpecialButtons/Specials";
+import Display from "./components/DisplayComponents/Display";
 // import { numbers } from '../path/to/data';
 // import { operators } from '../path/to/data';
 
@@ -28,14 +29,23 @@ function App() {
   return (
     <div className="container">
       <Logo />
+
       <div className="App">
+        <Display />
+        <div className="numberCont">
+          <div className='specialNum'>
+            <Specials />
+            <Numbers />}
+          </div>
+        </div>
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */
-        <Numbers/>}
-        <Operators/>
-        <Specials/>
+
+          <Operators />}
+        
       </div>
     </div>
-  );
-}
-
-export default App;
+   
+      );
+    }
+    
+    export default App;
