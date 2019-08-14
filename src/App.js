@@ -12,7 +12,6 @@ import Display from "./components/DisplayComponents/Display";
 
 // Logo has already been provided for you. Do the same for the remaining components
 import Logo from "./components/DisplayComponents/Logo";
-import SpecialButton from "./components/ButtonComponents/SpecialButtons/SpecialButton";
 // const [numberState, setNumberState] = useState(numbers);
 // const [operator, setOperator] = useState(operators[0].char);
 // console.log(operators[0].char)
@@ -31,16 +30,17 @@ function App() {
       <Logo />
 
       <div className="App">
-        <Display />
+        <Display>0</Display>
         <div className="numberCont">
-          <div className='specialNum'>
+          <div className='num_container'>
             <Specials />
-            <Numbers />}
+            <Numbers />
           </div>
+          <Operators />
         </div>
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */
 
-          <Operators />}
+          }
         
       </div>
     </div>
