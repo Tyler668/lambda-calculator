@@ -1,0 +1,104 @@
+.container{
+    background: #AE1E39;
+    width: 22%;
+    margin: auto;
+    height: 850px;
+}
+
+.buttons{
+    background: #0F426E;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: none;
+    box-shadow: 5px 10px 8px black;
+}
+
+.operators{
+    display: flex;
+    flex-flow: column wrap;
+    width: 110px;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 600px;
+    
+}
+
+.operator_buttons{
+    background: #007498;
+    color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 5px 10px 8px black;
+}
+
+.specials{
+    display: flex;
+    flex-flow: row;
+    width: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-flow: row wrap;
+}
+
+.special_buttons{
+    background: #095E9E;
+    color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: none;
+    font-weight: bold;
+    justify-content: space-around;
+    align-content: space-around;
+    box-shadow: 5px 10px 8px black;
+}
+
+.num_container{
+    width: 320px;
+    height: 500px;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-flow: row wrap;
+}
+
+.display{
+    background: #323337;
+    border-radius: 0%;
+    width: 450px;
+    height: 75px;
+    margin: 20px auto;
+    color: white;
+    border-radius: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.logo-container{
+    padding: 20px;
+    margin-left: 40px;
+}
+
+
+.specialNum{
+    display: flex;
+    flex-flow: column;
+    
+}
+
+.numberCont{
+    display: flex;
+    padding-left: 70px;;
+    margin: auto;
+}
