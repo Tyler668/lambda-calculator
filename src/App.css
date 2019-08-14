@@ -1,8 +1,8 @@
 .container{
     background: #AE1E39;
-    width: 70%;
+    width: 22%;
     margin: auto;
-    height: 800px;
+    height: 850px;
 }
 
 .buttons{
@@ -13,6 +13,7 @@
     width: 100px;
     height: 100px;
     border: none;
+    box-shadow: 5px 10px 8px black;
 }
 
 .operators{
@@ -33,7 +34,7 @@
     height: 100px;
     border: none;
     font-weight: bold;
-
+    box-shadow: 5px 10px 8px black;
 }
 
 .specials{
@@ -57,6 +58,7 @@
     font-weight: bold;
     justify-content: space-around;
     align-content: space-around;
+    box-shadow: 5px 10px 8px black;
 }
 
 .num_container{
@@ -74,10 +76,18 @@
     height: 75px;
     margin: 20px auto;
     color: white;
+    border-radius: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-top: 20px;
 }
 
 .logo-container{
     padding: 20px;
+    margin-left: 40px;
 }
 
 
@@ -90,4 +100,5 @@
 .numberCont{
     display: flex;
     padding-left: 70px;;
+    margin: auto;
 }
